@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(223, 212, 212);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.block{
+    box-sizing: content-box;
+    margin: 10px 10px;
+    padding: 20px 10px;
+    background: transparent;
+}
+.box1 img{
+margin: 2px 108px;
+padding: 5px 0px;
+box-sizing: border-box;
+height: 500px;
+width: 580px;
+}
+.box2{
+    padding: -10px -5px;
+    margin: 2px 2px;
+    box-sizing: border-box;
+    height: 490px;
+    width: 580px;
+    position: relative;
+    margin-top: -500px;
+    margin-left: -100px;
+    float: right;
+    background:transparent;
+}
+.min_box a{
+    border: 10px 20px;
+    text-decoration:none ;
+    list-style: none;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    font-size: 20px;
+}
+.min_box i{
+    color: black;
+}
+#dev{
+    background: dodgerblue;
+    padding: 5px -20px;
+    height: 240px;
+    width: 270px;
+}
+#skill{
+    padding: 10px -20px;
+    background: violet;
+    height: 240px;
+    width:290px ;
+    position: relative;
+    float: right;
+    margin-top: -240px;
+    border: 10px;
+}
+#design{
+    position: relative;
+    top: 15px;
+    padding:10px -25px ;
+    background: purple;
+    height:240px;
+    width: 270px;
+}
+#res{
+    position: relative;
+top:17px;
+padding: 0px -20px;
+background: palevioletred;
+height: 240px;
+width: 290px;
+position: relative; 
+float: right;
+margin-top: -240px;   
+}
